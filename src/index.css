@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+.logos-gradient-1 {
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent);
+}
+
+.logos-gradient-1:not(.slick-initialized) {
+  display: flex;
+  gap: 20px;
+}
+
+.logos-gradient-1 .logo-item-xs {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.logos-gradient-1 .logo-item-xs img {
+  display: block;
+}
+
+.logos-gradient-1 .slick-track {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.logos-gradient-1 .slick-slide {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  height: 60px;
+}
