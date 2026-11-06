@@ -8,3 +8,5 @@ Minimal Vite + React + Tailwind CSS v4 page (hero + logo marquee).
 npm install
 npm run dev
 ```
+
+Note: this is test repo for auditing UI specific agent behaviors
